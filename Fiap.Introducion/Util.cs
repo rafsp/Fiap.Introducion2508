@@ -31,5 +31,10 @@ namespace Fiap.Introducion
         {
             Console.WriteLine(String.Concat("Erro no dia", System.DateTime.Now,tipoErro));
         }
+
+        public string RetornarEnderecoPor(string CEP)
+        {
+            return "TBD";
+        }
     }
 }
